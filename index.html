@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types Workshop</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br>
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required /><br>
+    </form>
+
+    <h1>Preferences</h1>
+    <form>
+        <label for="contact_email">Receive updates via email:</label>
+        <input type="checkbox" id="contact_email" name="contact_email"/><br>
+        
+        <label>Preferred communication language (choose one):</label>
+        <input type="radio" id="lang_english" name="language" value="english"/>
+        <label for="lang_english">English</label><br>
+        
+        <input type="radio" id="lang_spanish" name="language" value="spanish"/>
+        <label for="lang_spanish">Spanish</label>
+    </form>
+    <form>
+        <label for="profile_pic">Upload Profile Picture (optional):</label>
+        <input type="file" id="profile_pic" name="profile_pic"><br>
+    </form>
+    <h1>Submitting the Form</h1>
+    <form>
+        <button type="submit">Submit Registration</button>
+        <button type="reset">Reset Form</button>
+    </form>
+    
+    
+</body>
+</html>
