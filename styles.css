@@ -14,7 +14,7 @@ body {
   
   input[type="text"],
   input[type="email"],
-  input[type="curr-password"],
+  input[type="password"],
   input[type="tel"] {
     width: 250px;
     padding: 5px;
